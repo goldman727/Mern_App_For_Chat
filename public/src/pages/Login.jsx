@@ -67,7 +67,7 @@ export default function Login() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>Convocube</h1>
+            <h1>Enjoy LIVECHAT</h1>
           </div>
           <input
             type="text"
@@ -101,7 +101,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #131324;
+  background-color: rgb(15 15 37);
   .brand {
     display: flex;
     align-items: center;
@@ -120,14 +120,14 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
-    border-radius: 2rem;
+    background-color: rgb(45 42 42 / 46%);
+    border-radius: 1rem;
     padding: 5rem;
   }
   input {
     background-color: transparent;
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid #07bc0c94;
     border-radius: 0.4rem;
     color: white;
     width: 100%;
@@ -138,7 +138,7 @@ const FormContainer = styled.div`
     }
   }
   button {
-    background-color: #4e0eff;
+    background-color: #07bc0c94;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -148,14 +148,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: #4e0eff;
+      background-color: rgb(66 109 68 / 58%);
     }
   }
   span {
     color: white;
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: rgb(221 65 28);
       text-decoration: none;
       font-weight: bold;
     }
